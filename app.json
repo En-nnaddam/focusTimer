@@ -28,6 +28,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "a very basic focus timer app that will include a huge of features in the future"
   }
 }
