@@ -6,14 +6,10 @@ import { fontSizes, spacing } from '../../utils/sizes';
 import RoundedButton from '../../components/RoundedButton';
 import { ProgressBar } from "react-native-paper";
 import Timing from './Timing';
-// import { useKeepAwake } from "expo-keep-awake";
 
-const DEFAULT_MINUTES = 0.1
+const DEFAULT_MINUTES = 10
 
 function Timer({ focusSubject, onTimeEnd, onCancel }) {
-    // useKeepAwake()
-    console.log("Timer ...")
-
     const [minutes, setMinutes] = useState(DEFAULT_MINUTES)
     const [isPaused, setIsPaused] = useState(true)
     const [progress, setProgress] = useState(1)

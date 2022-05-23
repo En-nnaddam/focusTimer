@@ -11,7 +11,6 @@ function CountDown({
     onProgress,
     onEnd,
 }) {
-    console.log("CountDown ...")
     const interval = useRef(null);
     const [millis, setMillis] = useState(minutesToMillis(minutes))
     const minute = Math.floor(millis / 1000 / 60)
